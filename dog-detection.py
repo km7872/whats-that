@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-model_path = 'efficientdet_lite0 (2).tflite'
+model_path = '' # model file goes here
 
 # Load the input image from an image file.
 numpy_image = cv2.imread('img1.jpg')  # Make sure the path is correct
